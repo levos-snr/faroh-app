@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./Footer.scss";
 
@@ -34,8 +36,8 @@ const Footer = () => {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Liverr</span>
-            <span>Buying on Liverr</span>
+            <span>Selling on The Work Palace</span>
+            <span>Buying on The Work Palace</span>
           </div>
           <div className="item">
             <h2>Community</h2>
@@ -53,14 +55,14 @@ const Footer = () => {
           </div>
           <div className="item">
             <h2>More From Fiverr</h2>
-            <span>Liverr Business</span>
-            <span>Liverr Pro</span>
-            <span>Liverr Logo Maker</span>
-            <span>Liverr Guides</span>
+            <span>The Work Palace Business</span>
+            <span>The Work Palace Pro</span>
+            <span>The Work Palace Logo Maker</span>
+            <span>The Work Palace Guides</span>
             <span>Get Inspired</span>
-            <span>Liverr Select</span>
+            <span>The Work Palace Select</span>
             <span>ClearVoice</span>
-            <span>Liverr Workspace</span>
+            <span>The Work Palace Workspace</span>
             <span>Learn</span>
             <span>Working Not Working</span>
           </div>
@@ -68,8 +70,8 @@ const Footer = () => {
         <hr />
         <div className="bottom">
           <div className="left">
-            <h2>liverr</h2>
-            <span>© Liverr International Ltd. 2023</span>
+            <h2>The Work Palace</h2>
+            <span>© The Work Palace International Ltd. 2023</span>
           </div>
           <div className="right">
             <div className="social">
