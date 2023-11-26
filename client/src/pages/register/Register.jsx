@@ -3,6 +3,7 @@ import "./Register.scss";
 import upload from "../../utils/upload";
 import newRequest from "../../utils/newRequest";
 import { useNavigate } from "react-router-dom";
+import axios from 'axios';
 
 function Register() {
   const [file, setFile] = useState(null);
@@ -13,7 +14,7 @@ function Register() {
     img: "",
     country: "",
     isSeller: false,
-    desc: "",
+    descr: "",
   });
 
   const navigate = useNavigate();
@@ -31,17 +32,21 @@ function Register() {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
+    // const url = await upload(file);
+    axios.post('http://localhost:3002/register', user)
+    .then(res => console.log(res))
+    .then(err => console.log(err))
 
-    const url = await upload(file);
-    try {
-      await newRequest.post("/auth/register", {
-        ...user,
-        img: url,
-      });
-      navigate("/");
-    } catch (err) {
-      console.log(err);
-    }
+
+    // try {
+    //   await newRequest.post("/auth/register", {
+    //     ...user,
+    //     img: url,
+    //   });
+    //   navigate("/");
+    // } catch (err) {
+    //   console.log(err);
+    // }
   };
 
   return (

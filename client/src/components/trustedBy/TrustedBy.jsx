@@ -11,7 +11,7 @@ const TrustedBy = () => {
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/google2x.06d74c8.png"
+          src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/google-logo.svg"
           alt=""
         />
         <img
@@ -19,16 +19,18 @@ const TrustedBy = () => {
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/pandg2x.6dc32e4.png"
+          src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/companies/nasa-logo3.svg"
           alt=""
         />
+        
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/paypal2x.22728be.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/M-PESA_LOGO-01.svg/512px-M-PESA_LOGO-01.svg.png"
           alt=""
         />
       </div>
     </div>
   );
 };
+
 
 export default TrustedBy;

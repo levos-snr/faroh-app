@@ -15,7 +15,7 @@
   }
 
   .container {
-    width: 1400px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
@@ -28,6 +28,7 @@
       // }
       .dot {
         color: #17bf73;
+        font-size: 24px;
       }
     }
     .links {
@@ -75,11 +76,11 @@
         border-radius: 5px;
         border: 1px solid white;
         cursor: pointer;
-        background-color: transparent;
+        background-color: #1dbf73;
 
         &:hover {
-          background-color: #1dbf73;
-          border-color: #1dbf73;
+          background-color: #0a643a;
+          border-color: #0a643a;
         }
       }
     }
@@ -93,7 +94,7 @@
 
   .menu {
     font-size: 12px;
-    width: 1400px;
+    width: 1200px;
     padding: 10px 0px;
     display: flex;
     justify-content: space-between;

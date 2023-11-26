@@ -42,16 +42,16 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/" className="link">
-            <span className="text">The Work Palace</span>
+            <span className="text">Worker Palace</span>
           </Link>
-          <span className="dot">*</span>
+          <span className="dot"><sup>💸</sup></span>
         </div>
         <div className="links">
-          <span>Freelance Business</span>
-          <span>Explore</span>
-          <span>English</span>
+          <span>How it works</span>
+          <span>Jops</span>
+          {/* <span>Language</span> */}
 
-          {!currentUser?.isSeller && <span>Become a Seller</span>}
+          {!currentUser?.isSeller && <span>Become a Freelancer || Hire</span>}
 
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
@@ -98,13 +98,13 @@ const Navbar = () => {
           <hr />
           <div className="menu">
             <Link className="link menuLink" to="/">
-              Graphics & Design
+              Graphics ♦ Design
             </Link>
             <Link className="link menuLink" to="/">
-              Video & Animation
+              Video ♦ Animation
             </Link>
             <Link className="link menuLink" to="/">
-              Writing & Translation
+              Writing ♦ Translation
             </Link>
             <Link className="link menuLink" to="/">
               AI Services
@@ -113,10 +113,10 @@ const Navbar = () => {
               Digital Marketing
             </Link>
             <Link className="link menuLink" to="/">
-              Music & Audio
+              Music ♦ Audio
             </Link>
             <Link className="link menuLink" to="/">
-              Programming & Tech
+              Programming ♦ Tech
             </Link>
             <Link className="link menuLink" to="/">
               Business
